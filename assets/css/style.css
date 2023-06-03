@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url(../css/root.css);
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.f_rubik {
+    font-family: 'rubik', 'sans-serif';
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.w_35 {
+    max-width: 35px;
+}
+
+nav ul li a {
+    margin-right: 25px;
+}
+
+.fc_red {
+    color: #F53855;
+}
+
+.fc_black {
+    color: black;
+}
+
+.fc_gray {
+    color: #4F5665;
+}
+
+.max_w_555 {
+    max-width: 555px;
+}
+
+.max_w_383 {
+    max-width: 383px;
+}
+
+.max_w_427 {
+    max-width: 427px;
+}
+
+.max_w_508 {
+    max-width: 508px;
+}
+
+.max_w_371 {
+    max-width: 371px;
+}
+
+.max_w_144 {
+    max-width: 144px;
+}
+
+.max_w_340 {
+    max-width: 340px;
+}
+
+.max_w_410 {
+    max-width: 410px;
+}
+
+.max_w_33px {
+    max-width: 33px;
+}
+
+.max_w_250 {
+    max-width: 250px;
+}
+
+.max_w_447 {
+    max-width: 447px;
+}
+
+.card_box {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    width: 100%;
+    height: 230px;
+}
+
+
+.select_box {
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    padding: 13px 62px;
+    background-color: #FFFFFF;
+}
+
+.bg_grediant {
+    background: radial-gradient(#FFFFFF 20%, #EEEEEF 70%);
+}
+
+.get_btn:hover {
+    box-shadow: 0px 12px 25px #F53838;
+
+}
+
+.get_btn {
+    background: #F53838;
+    border-radius: 10px;
+    padding: 17px 77px;
+    border: 1px solid #F53838;
+
+}
+
+.z_10 {
+    z-index: 10 !important;
+}
+
+.slick-next:before {
+    content: ' ';
+    display: none !important;
+}
+
+.slick-prev:before {
+    content: '';
+    display: none !important;
+}
+
+.slick-dots {
+    text-align: start !important;
+    bottom: -64px !important;
+    z-index: 15;
+}
+
+.slick-dots li {
+    margin: 0;
+    width: unset !important;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 5px;
+    border: none;
+    border-radius: 100%;
+    background-color: #DDE0E4 !important;
+    text-indent: -9999px;
+    transition: all 300ms linear;
+}
+
+.slick-dots li.slick-active button {
+    background: #F53838 !important;
+    border-radius: 28px;
+    width: 45px;
+    height: 15px;
+}
+
+.curser_pointer {
+    cursor: pointer;
+}
+
+.subscribe_btn {
+    background: #F53838;
+    border-radius: 10px;
+    padding: 17px 65px;
+
+}
+
+.subscribe_btn:hover {
+    box-shadow: 0px 12px 25px #F53838;
+}
+
+
+
+.signup_btn {
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    padding: 13px 45px;
+    background-color: #ffffff;
+    color: #F53838;
+}
+
+.box {
+    background-color: #ffffff;
+    box-shadow: 1px 20px 40px #d3d3dc;
+    max-width: 1140px;
+    padding: 50px;
+
+}
+
+.border_right {
+    border-right: 3px solid #EEEFF2;
+    height: 100px;
+}
+
+.border_white {
+    border-right: 3px solid #ffffff;
+    height: 100px;
+}
+
+.border_box {
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    height: 100%;
+    transition: .3s;
+}
+
+.card-box {
+    max-width: 1140px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 20px 40px #d3d3dc;
+    padding: 45px 60px;
+}
+
+.CustomerSlider .slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+    z-index: 10;
+}
+
+.CustomerSlider .slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+
+}
+
+
+.slick-dots li.slick-active button:before {
+    color: #F53838 !important;
+    width: 30px !important;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+    color: #4F5665 !important;
+}
+
+@media (max-width:992px) {
+    .position_absolute {
+        position: relative;
+    }
+}
+
+@media (max-width:768px) {
+    .border_right {
+        border-bottom: 3px solid #EEEFF2;
+        border-right: none;
+
+    }
+
+    .get_btn {
+        padding: 17px 34px !important;
+    }
+
+    .subscribe_btn {
+
+        padding: 17px 30px !important;
+
+    }
+}
+
+.border_box:hover .select_box {
+    background-color: #F53838;
+    color: #FFFFFF;
+}
+
+.border_box:hover {
+    border: 2px solid #F53838;
+}
